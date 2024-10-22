@@ -115,6 +115,7 @@ nav li a {
     width: 100vw;
     height: 100vh;
     z-index: 4;
+    overflow: hidden;
     transition: left 0.75s cubic-bezier(.67,.08,.27,.89);
 }
 
