@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target.closest("#menu-btn")) {
             console.log("menu button clicked");
             menuDropdown.classList.toggle("slide-in");
+            document.body.classList.toggle("no-scroll");
             //overlay.classList.toggle("overlay-visible")
 
             if (menuDropdown.classList.contains("slide-in")) {

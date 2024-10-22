@@ -189,6 +189,10 @@ nav li a {
     font-weight: normal;
 }
 
+.no-scroll{
+    overflow: hidden;
+}
+
 .slide-in{
     left: 0;
 }
